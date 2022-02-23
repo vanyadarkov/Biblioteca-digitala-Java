@@ -72,11 +72,11 @@ public class InitAllInstances {
 
         Administration admin = new Administration(init.publishingRetailers, init.languages);
 
-        ArrayList test = admin.getBooksForPublishingRetailerID(2);
-        ArrayList test1 = admin.getBooksForPublishingRetailerID(6);
-        ArrayList test2 = admin.getBooksForPublishingRetailerID(13);
-        ArrayList test3 = admin.getBooksForPublishingRetailerID(16);
-        ArrayList test4 = admin.getBooksForPublishingRetailerID(17);
+        ArrayList test = admin.getBooksForPublishingRetailerID(14);
+        ArrayList test1 = admin.getBooksForPublishingRetailerID(2);
+        ArrayList test2 = admin.getBooksForPublishingRetailerID(19);
+        ArrayList test3 = admin.getBooksForPublishingRetailerID(23);
+        ArrayList test4 = admin.getBooksForPublishingRetailerID(20);
 
 
 
@@ -88,11 +88,11 @@ public class InitAllInstances {
             admin.writeToOutputFile("get-books-for-publishing-retailer-id-test4.out", 1, test3);
             admin.writeToOutputFile("get-books-for-publishing-retailer-id-test5.out", 1, test4);
 
-            test = admin.getCommonBooksForRetailerIDs(13,2);
-            test1 = admin.getCommonBooksForRetailerIDs(25,26);
-            test2 = admin.getCommonBooksForRetailerIDs(1,2);
-            test3 = admin.getCommonBooksForRetailerIDs(10,31);
-            test4 = admin.getCommonBooksForRetailerIDs(10,26);
+            test = admin.getCommonBooksForRetailerIDs(29,10);
+            test1 = admin.getCommonBooksForRetailerIDs(27,29);
+            test2 = admin.getCommonBooksForRetailerIDs(12,19);
+            test3 = admin.getCommonBooksForRetailerIDs(8,11);
+            test4 = admin.getCommonBooksForRetailerIDs(27,23);
 
             admin.writeToOutputFile("get-common-books-for-retailer-ids-test1.out", 1, test);
             admin.writeToOutputFile("get-common-books-for-retailer-ids-test2.out", 1, test1);
@@ -100,10 +100,10 @@ public class InitAllInstances {
             admin.writeToOutputFile("get-common-books-for-retailer-ids-test4.out", 1, test3);
             admin.writeToOutputFile("get-common-books-for-retailer-ids-test5.out", 1, test4);
 
-            test = admin.getAllBooksForRetailerIDs(10,4);
-            test1 = admin.getAllBooksForRetailerIDs(10,9);
-            test2 = admin.getAllBooksForRetailerIDs(11,20);
-            test3 = admin.getAllBooksForRetailerIDs(3,17);
+            test = admin.getAllBooksForRetailerIDs(28,32);
+            test1 = admin.getAllBooksForRetailerIDs(14,16);
+            test2 = admin.getAllBooksForRetailerIDs(7,19);
+            test3 = admin.getAllBooksForRetailerIDs(3,3);
             test4 = admin.getAllBooksForRetailerIDs(5,13);
 
             admin.writeToOutputFile("get-all-books-for-retailer-ids-test1.out", 1, test);
@@ -112,10 +112,10 @@ public class InitAllInstances {
             admin.writeToOutputFile("get-all-books-for-retailer-ids-test4.out", 1, test3);
             admin.writeToOutputFile("get-all-books-for-retailer-ids-test5.out", 1, test4);
 
-            test = admin.getLanguagesForPublishingRetailerID(10);
-            test1 = admin.getLanguagesForPublishingRetailerID(9);
-            test2 = admin.getLanguagesForPublishingRetailerID(20);
-            test3 = admin.getLanguagesForPublishingRetailerID(17);
+            test = admin.getLanguagesForPublishingRetailerID(6);
+            test1 = admin.getLanguagesForPublishingRetailerID(28);
+            test2 = admin.getLanguagesForPublishingRetailerID(11);
+            test3 = admin.getLanguagesForPublishingRetailerID(30);
             test4 = admin.getLanguagesForPublishingRetailerID(13);
 
             admin.writeToOutputFile("get-languages-for-publishing-retailer-id-test1.out", 2, test);
@@ -124,11 +124,11 @@ public class InitAllInstances {
             admin.writeToOutputFile("get-languages-for-publishing-retailer-id-test4.out", 2, test3);
             admin.writeToOutputFile("get-languages-for-publishing-retailer-id-test5.out", 2, test4);
 
-            test = admin.getCountriesForBookID(1955);
-            test1 = admin.getCountriesForBookID(7427);
-            test2 = admin.getCountriesForBookID(12806);
-            test3 = admin.getCountriesForBookID(540);
-            test4 = admin.getCountriesForBookID(13979);
+            test = admin.getCountriesForBookID(2832);
+            test1 = admin.getCountriesForBookID(5598);
+            test2 = admin.getCountriesForBookID(5856);
+            test3 = admin.getCountriesForBookID(10995);
+            test4 = admin.getCountriesForBookID(1000);
 
             admin.writeToOutputFile("get-countries-for-book-id-test1.out", 3, test);
             admin.writeToOutputFile("get-countries-for-book-id-test2.out", 3, test1);

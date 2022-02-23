@@ -175,7 +175,7 @@ public class Administration {
         if(WhichMethod == 1){
             ArrayList<Book> books = arrayList;
             for(Book b : books){
-                sb.append(b.Publish()).append("\n");
+                sb.append(b.getID()).append("\n");
             }
         }
         if(WhichMethod == 2){
