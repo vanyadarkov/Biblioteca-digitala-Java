@@ -1,6 +1,4 @@
-## LibroData - Gestiunea si livrarea de carti electronice
-
-Realizat de: Catruc Ionel 322CBa
+# LibroData - Gestiunea si livrarea de carti electronice
 
 # Introducere
 Odată cu digitalizarea a mare parte din industrii, și industria distriburii cărților a fost modificată. În acest context, prezentăm mai departe cum funcționează entitățile ce modelează procesul de distribuire a cărților electronice.
